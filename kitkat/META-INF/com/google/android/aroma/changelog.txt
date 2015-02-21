@@ -1,0 +1,28 @@
+Jan 21
+-GCC 4.9 Used
+-Linux 3.4.106
+-Some Updates From CM 12
+-F2FS
+-Voltage Control
+-CPU and GPU OC
+-TCP Congestion Controls
+-Optimized Algorithms
+-Fast Charge
+-Export Krait Variant
+-Simple GPU Governor
+-BFQ, FIOPS, SIO I/O Schedulers
+-Intellidemand, Intelliactive, Intellimm, and ElementalX Governors
+-FRANDOM Support
+-exFAT Support
+-Asynchronous Fsync
+-BLN
+-Add -Stockie-Kernel to the Kernel Version
+
+Jan 15
+-GCC 4.8 Used
+-Base Updated to 3.4.105
+-Overclocked L2 Cache
+
+Oct 01 
+-Initial Release
+-Undervolted Frequency Table
