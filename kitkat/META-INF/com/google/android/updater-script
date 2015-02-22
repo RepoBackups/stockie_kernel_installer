@@ -1,5 +1,5 @@
 ui_print("You Are Installing...");
-ui_print("Stockie Kernel by @mikronac.ns for HTC One S (Ville)!");
+ui_print("Mrak Kernel by @mikronac.ns for HTC One S (Ville)!");
 ui_print("-----------------------------------------------------------------------");
 ifelse(is_mounted("/system") == "/system", unmount("/system"));
 ifelse(is_mounted("/cache") == "/cache", unmount("/cache"));
