@@ -64,10 +64,8 @@ ui_print("Flashing New boot.img...");
 run_program("/sbin/busybox", "dd", "if=/tmp/newboot.img", "of=/dev/block/mmcblk0p21");
 set_progress(0.95);
 
-ui_print("Wiping Cache and Dalvik...");
+ui_print("Umouning /cache and /data partitions");
 unmount("/cache");
-format("ext4", "EMMC", "/dev/block/mmcblk0p34", 0);
-delete_recursive("/data/dalvik-cache");
 unmount("/data");
 
 ui_print("");
